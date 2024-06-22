@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0;
+    text-align: center;
+}
+h1{
+    background-color:black;
+    color: aliceblue;
+    height: 5rem;
+    align-content: center;
+    line-height: 5rem;/* jb heading ko center ma lana ho aur thoda height bhi dena ho,align center bhi use kr sakte h lakin top se heght nhi hoga*/
+    text-align: center;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+   display: flex;
+  
+   align-items: center;
+justify-content: center;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: #081b31;
+
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;/* bilkul saaf img ke liye*/
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    text-align: center;/* paragraph ko center krne ke liye text align dete h*/
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+#user-score,#comp-score{
+    font-size: 3rem;
+
+}
+.msg-container{
+    margin-top: 3rem;
+  
+}
+#msg{
+    background-color: #081b31;
+    color: aliceblue;
+    font-size:2rem;
+    text-align: center;
+    padding:1rem;
+    border-radius: 1rem;
+    display: inline;
+   
+}
+#msg:hover{
+    cursor: pointer;
+
+}
+
